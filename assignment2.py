@@ -207,7 +207,7 @@ def fuzzy_classifier(input_filepath):
   propLeft_high = fuzzyStuff(input.leftProp, 0.6, 0.7, 1, 1)
 
 
-  #For Each Class, calculate the strgth given rule
+  #For Each Class, calculate the stregth given rule
   for letter in classArray:
     match letter:
       case 'A':#IF PropBlack is Medium AND (TopProp is Medium OR LeftProp is Medium) THEN class A.
